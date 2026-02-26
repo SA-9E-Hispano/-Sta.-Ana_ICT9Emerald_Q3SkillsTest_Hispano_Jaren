@@ -1,255 +1,93 @@
-<!DOCTYPE html> <!-- Tells the browser this is an HTML5 document -->
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-    <!-- Title shown in the browser tab -->
-    <title>Q3 Seatwork 2</title>
-
-    <!-- Bootstrap CSS framework for ready-made styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-
-      /* Style for summary tag */
-      summary{
-        background-color: pink;
-      }  
-
-      /* Set fixed height and width for store images */
-      #villman, #silicon, #express{
-          height: 100px;
-          width: 300px;
-      }
-
-      /* Make row display horizontally using flexbox */
-      .row {
-        display: flex;
-        text-align: center;
-      }
-
-      /* Make each div inside row share equal space */
-      .row div {
-        flex: 1; 
-      }
-
-      /* Style for the budget container */
-      #brands{
-        width: 860px;
-        background-color: rgba(0, 215, 252, 0.5); 
-        height: 200px;
-        padding: 20px;
-      }
-
-      /* Body styling */
-      body{
-        font-family: Gill Sans MT;
-        background-image: url('https://www.bing.com/th/id/OIP.bipBY-Na3aLO-9NlqMjQdQHaFj?w=271&h=211&c=8&rs=1&qlt=90&o=6&cb=defcachec1&dpr=1.3&pid=3.1&rm=2');
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-
-      /* Navbar gradient background */
-      .navbar{
-        background-image: linear-gradient(to right, #061f45, #0a60d1);
-      }
-
-      /* Main title styling */
-      h1{
-        color: white;
-        text-shadow: 2px 2px #484a49;
-      }
-
-      /* Main buttons styling */
-      #buttons, #brand_btn{
-        color: white;
-        background-color: #161f36; 
-        border: 3px solid gray;
-        border-radius: 20px;
-        width: 300px;
-        font-size: 20px;
-        cursor: pointer;
-      }
-
-      /* Brand buttons smaller font */
-      #brand_btn{
-        font-size: 15px;
-        background-image: linear-gradient(to right, black, #161f36);
-      }
-
-      /* Laptop gif size */
-      #laptop{
-        height: 60px;
-        width: 60px;
-      }
-
-      /* Budget input styling */
-      #budget{
-        text-align: center;
-        font-size: 25px;
-        color: #072f70;
-      }
-
-      /* Footer styling */
-      .footer {
-        margin-top: 10%;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        color: white;
-      }
-
-      /* Bold background */
-      b{
-        background-color: gray;
-      }
-
-    </style>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-<!-- NAVIGATION BAR -->
-<nav class="navbar navbar-expand-md">
-  <div class="container-fluid">
+    <!-- 9E & 9R: Add your own JavaScript below before the closing </body> tag.
+         Use event handling and basic Math methods as discussed in class.
+         This will be part of your project. You may work with your partner. -->
 
-    <!-- Left side links -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="font-size: 20px; color: white;">Shop</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="font-size: 20px; color: white;">Locate</a>
-      </li>
-    </ul>
+    <nav class="navbar">
+        <div class="logo">LOGO</div>
+        
+        <img src="images/photo.jpg" class="https://yt3.googleusercontent.com/85iAlrSYtvSFR37n-vX6WO6ww7ZflYIjlg_x4CvveEDNaReJnLWNAQdUzEPZU80kdd6YB3ANbbw=s900-c-k-c0x00ffffff-no-rj">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Fare Matrix</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <a href="#" class="book">Book Now</a>
+            <a href="#" class="create-btn">Create Account</a>
+        </div>
+    </nav>
 
-    <!-- Center Title -->
-    <center>
-      <h1>Product Locator</h1>
-    </center>
+    <section class="hero">
 
-    <!-- Search Bar -->
-    <form class="d-flex">
-      <input class="form-control me-2" type="text" placeholder="Search">
-      <button class="btn btn-primary" type="button">Search</button>
-    </form>
+        <div class="registration-card">
 
-  </div>
-</nav>
+            <div class="left-panel">
+                <div class="profile-placeholder">
+                    𝓟𝓻𝓸𝓯𝓲𝓵𝓮 𝓘𝓶𝓪𝓰𝓮...
+                </div>
+                <input type="file">
+                <button class="upload-btn">Ʉ₱ⱠØ₳Đ ₱ⱧØ₮Ø</button>
+            </div>
 
-<br>
+            <div class="right-panel">
+                <h1>REGISTRATION</h1>
 
-<!-- BUDGET SECTION -->
-<center>
-<div id="brands">
+                <p class="instructions">
+                    ᴾˡᵉᵃˢᵉ ᶠⁱˡˡ ᵒᵘᵗ ᵃˡˡ ʳᵉqᵘⁱʳᵉᵈ ᶠⁱᵉˡᵈˢ ⁱⁿ ᵗʰᵉ ʳᵉᵍⁱˢᵗʳᵃᵗⁱᵒⁿ ᶠᵒʳᵐ ʷⁱᵗʰ ᵃᶜᶜᵘʳᵃᵗᵉ ⁱⁿᶠᵒʳᵐᵃᵗⁱᵒⁿ.
+                </p>
 
-  <form>
-    <h3>
-      Want a gaming laptop? 
-      <img id="laptop" src="https://media1.tenor.com/m/h5iPPGRA_3EAAAAC/kaiju-kaiju-no8.gif">
-      <br>
-      Enter your budget and let's find the right one for you!
-    </h3> 
+                <form>
+                    <label>First Name</label>
+                    <input type="text">
 
-    <!-- User types budget here -->
-    <input type="text" class="form-control" id="budget" placeholder="Enter here...">
-  </form>
+                    <label>Last Name</label>
+                    <input type="text">
 
-</div>
-</center>
+                    <div class="row">
+                        <div>
+                            <label>Age</label>
+                            <input type="number">
+                        </div>
+                        <div>
+                            <label>Contact Number</label>
+                            <input type="text">
+                        </div>
+                    </div>
 
-<br>
+                    <label>Email</label>
+                    <input type="email">
 
-<!-- BUTTON SECTION -->
-<div class="container">
-  <div class="row">
+                    <label>Enter your username</label>
+                    <input type="text">
 
-    <!-- Brand & Discount Button -->
-    <div>
-      <button id="buttons" class="btn" onclick="showBrand()">
-        Brand & Discounts
-      </button>
+                    <label>Enter your password</label>
+                    <input type="password">
 
-      <!-- Output will appear here -->
-      <div id="brand"></div>
-    </div>
+                    <div class="terms">
+                        <input type="checkbox">
+                        <span>I accept the Terms of Use and Privacy Policy</span>
+                    </div>
 
-    <!-- Store Location Button -->
-    <div>
-      <button id="buttons" class="btn" onclick="showStore()">
-        Store Location
-      </button>
+                    <button class="submit-btn">Create my account</button>
+                </form>
+            </div>
 
-      <!-- Store info will appear here -->
-      <div id="stores"></div>
-    </div>
+        </div>
+    </section>
 
-  </div>
-</div>
-
-<!-- JAVASCRIPT SECTION -->
-<script>
-
-  // Function runs when Brand & Discounts button is clicked
-  function showBrand(){
-
-    // Get value from input field and convert to number
-    let budget = Number(document.getElementById('budget').value);
-
-    // Compute 20% discount
-    let disc = budget * 0.20;
-
-    // Format discount to 2 decimal places
-    let finalPrice = disc.toFixed(2);
-
-    // Display brands and discount inside "brand" div
-    document.getElementById("brand").innerHTML =
-
-      "<br><b style='color: white;'>Recommended Brands:<br>" +
-
-      "<button id='brand_btn' class='btn'>Acer</button><br>" +
-
-      "<button id='brand_btn' class='btn'>Asus</button><br>" +
-
-      "<button id='brand_btn' class='btn'>Lenovo</button><br>" +
-
-      "<br><br>You are eligible for: " +
-
-      "<span style='color: red;'><kbd style='font-size: 25px;'>" +
-      finalPrice +
-      "</kbd></span> discount.</b>";
-  }
-
-
-  // Function runs when Store Location button is clicked
-  function showStore(){
-
-    // Insert store information inside "stores" div
-    document.getElementById("stores").innerHTML =
-
-      "<br><img id='villman' src='https://villman.com/images/villman_logo_2020.png' class='img-thumbnail'><br>" +
-
-      "<br><b style='color: white;'>Location:<br>" +
-
-      "<i>Cyberzone, SM City Fairview Main Building <br> Quirino Highway, Corner Regalado Hwy</i><br>" +
-
-      "<br><img id='silicon' src='https://www.wesellit.ph/Content/Images/uploaded/silicon_valley/silicon%20valley%20logo.jpg' class='img-thumbnail'><br>" +
-
-      "<br><b style='color: white;'>Location:<br>" +
-
-      "<i>SM City North EDSA Annex 1 Tunnel, Bago Bantay, <br> Quezon City, Metro Manila</i>";
-  }
-
-</script>
-
-<br><br><br>
-
-<!-- FOOTER -->
-<div class="footer">
-  <hr style="color:white;">
-  <center>&copy; <label style="color:white;">Student Name</label></center>
-</div>
+    <footer>
+        Student Name | Grade & Section ©2026
+    </footer>
 
 </body>
 </html>
